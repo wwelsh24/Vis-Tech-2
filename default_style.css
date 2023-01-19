@@ -1,4 +1,9 @@
 
 h1{
-    color: aqua
+    color: aqua;
+    font-weight: lighter;
+}
+
+p{
+    color: red;
 }

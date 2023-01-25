@@ -2,334 +2,315 @@
 
 /* default to border-box */
 html {
-    @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap");
-    box-sizing: content-box;
-    font-size: 16px;
-  }
-  
-  /* adjust typography defaults */
-  body {
-    line-height: 1;
-    margin: 0px;
-    background: #022c28;
-    font-family: "Space Mono", monospace;
-  }
-  
-  /* images and videos max out at full width */
-  img,
-  video {
-    height: auto;
-    max-width: 100%;
-  }
-  
-  /* Page title defaults */
-  h1 {
-    font-weight: 700;
-    font-size: 40px;
-    color: #012420;
-  }
-  
-  /* section label defaults */
-  h3 {
-    font-weight: 700;
-    color: rgb(194, 255, 255);
-    left: 5px;
-    position: relative;
-  }
-  
-  /* paragraph defaults */
-  p {
-    left: 10px;
-    position: relative;
-  }
-  
-  /* list default position */
-  li {
-    left: 20px;
-    position: relative;
-  }
-  
-  /* default page title container styling */
-  .title-container {
-    margin: auto;
-    line-height: 1;
-    color: slategrey;
-    background: mediumturquoise;
-    height: 50px;
-    min-width: 100px;
-    width: 300px;
-    border: 2px slategray ridge;
-    border-radius: 20px;
-  }
-  
-  /* title text alignment settings */
-  .Page_Heading {
-    line-height: 0px;
-    text-align: center;
-    position: relative;
-  }
-  
-  /* defaults for the primary content container on each page */
-  .primary_container {
-    margin: auto;
-    min-width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding-top: 10px;
-  }
-  
-  /* settings for the links to each project */
-  .project_link {
-    position: relative;
-    width: 100%;
-    min-width: 250px;
-    min-height: 250px;
-    margin: 10px 10px 10px 10px;
-  }
-  
-  /* styles the project page description */
-  #project_page_desc_container {
-    position: relative;
-    width: 100%;
-    min-width: 250px;
-    min-height: 50px;
-    margin: 10px 10px 10px 10px;
-  }
-  
-  /* styles the project divs */
-  .project_container {
-    position: relative;
-    width: 100%;
-    min-width: 250px;
-    min-height: 250px;
-    background: mediumturquoise;
-    color: #012420;
-    border-radius: 25px;
-    display: inline-block;
-    border: 2px slategray ridge;
-  }
-  
-  /* keeps link appearance static despite visiting */
-  a:visited {
-    text-decoration: none;
-    color: mediumturquoise;
-  }
-  
-  /* sets page link div styling*/
-  .topnav {
-    background-color: #022c28;
-    font-size: 20px;
-    padding-bottom: 10px;
-  }
-  
-  /* styles page navigation links */
-  .nav_link {
-    font-size: 20px;
-    margin: 10px;
-    color: mediumturquoise;
-  }
-  
-  /* styles subheading container defaults*/
-  .project_label_container {
-    min-height: 40px;
-    padding-bottom: 10px;
-    width: 90%;
-    display: flex;
-    line-height: 0.8;
-  }
-  
-  /* styles subheadings*/
+  @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap");
+  box-sizing: content-box;
+  font-size: 16px;
+}
+
+/* adjust typography defaults */
+body {
+  line-height: 1;
+  margin: 0px;
+  background: #C9FFFF;
+  font-family: "Space Mono", monospace;
+  font-weight:700;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Page title defaults */
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #012420;
+}
+
+/* section label defaults */
+h3 {
+  font-weight: 700;
+  color: rgb(194, 255, 255);
+  left: 5px;
+  position: relative;
+}
+
+a{
+  color:#145C5C;
+  font-weight:700;
+}
+
+/* paragraph defaults */
+p {
+  left: 10px;
+  position: relative;
+}
+
+/* list default position */
+li {
+  left: 20px;
+  position: relative;
+}
+
+/* default page title container styling */
+.title-container {
+  margin: auto;
+  line-height: 1;
+  color: slategrey;
+  background: mediumturquoise;
+  height: 50px;
+  min-width: 100px;
+  width: 300px;
+  border: 2px slategray ridge;
+  border-radius: 20px;
+}
+
+/* title text alignment settings */
+.Page_Heading {
+  line-height: 0px;
+  text-align: center;
+  position: relative;
+  margin-top:20px;
+}
+
+/* defaults for the primary content container on each page */
+.primary_container {
+  margin: auto;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 10px;
+
+}
+
+#primary-illustration-container{
+  border:grey 2px solid;
+  width:98%;
+  height:500px;
+  margin:1%;
+}
+
+#primary-illustration{
+  height:100%;
+  display: block;
+  margin: auto;
+}
+
+/* settings for the links to each project */
+.project_link {
+  position: relative;
+  width: 100%;
+  min-width: 250px;
+  min-height: 250px;
+  margin: 10px 10px 10px 10px;
+}
+
+/* styles the project page description */
+#project_page_desc_container {
+  position: relative;
+  width: 100%;
+  min-width: 250px;
+  min-height: 50px;
+  margin: 10px 10px 10px 10px;
+}
+
+/* styles the project divs */
+.project_container {
+  position: relative;
+  width: 100%;
+  min-width: 250px;
+  min-height: 250px;
+  background: mediumturquoise;
+  color: #012420;
+  border-radius: 25px;
+  display: inline-block;
+  border: 2px slategray ridge;
+}
+
+.triangle{
+  stroke: #DE5421;
+  stroke-width: 4px;
+}
+
+circle{
+  stroke: #DE5421;
+  stroke-width: 4px; 
+}
+
+/* keeps link appearance static despite visiting */
+a:visited {
+  text-decoration: none;
+  color: #145C5C;
+}
+
+/* sets page link div styling*/
+.topnav {
+  font-size: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: inline-block;
+}
+
+#Projects_Dropdown{
+  font-size: 20px;
+  margin: -5px;
+  float: left;
+  margin-top:2px;
+  color: #145C5C;
+}
+/* styles page navigation links */
+.nav_link {
+  font-size: 20px;
+  margin: 10px;
+  float: left;
+  color: #145C5C;
+}
+
+/* styles subheading container defaults*/
+.project_label_container {
+  min-height: 40px;
+  padding-bottom: 10px;
+  width: 90%;
+  display: flex;
+  line-height: 0.8;
+}
+
+/* styles subheadings*/
+.project_label {
+  margin: 10px;
+  color: #012420;
+  display: inline;
+  font-size: 20px;
+  line-height: 0.9;
+}
+
+/* positions image container for each project*/
+.project_image_container {
+  position: relative;
+  height: 150px;
+  width: auto;
+  bottom: 10px;
+  float: left;
+  left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+/* sets image size for each project to the height of the parent div */
+.project_image {
+  height: 100%;
+}
+
+/* project description text style*/
+.project_description {
+  text-align: justify;
+  position: relative;
+  font-size: 16px;
+  margin: 0px;
+  top: -6px;
+  padding-right: 20px;
+}
+
+
+
+
+/* About me page primary content setup */
+#bio_page_pc {
+  background: mediumturquoise;
+  margin: 0 auto;
+  flex-wrap: wrap-reverse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  min-width: 350px;
+  width: 96%;
+  border-radius: 25px;
+  border: 2px slategray ridge;
+}
+
+/* bio subheading text styling*/
+.bio_label {
+  color: #012420;
+  display: inline;
+  font-size: 26px;
+  line-height: 0.9;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* bio subheading container styling */
+.bio_label_container {
+  height: auto;
+  padding: 20px;
+  width: 90%;
+  display: inline-block;
+  position: relative;
+}
+
+
+
+/* positions bio text in about me page */
+.bio {
+  position: relative;
+  padding-right: 10px;
+}
+
+/* positions link containers */
+.link_container {
+  position: absolute;
+  bottom: 2px;
+  max-width: 60%;
+  display: flex;
+  flex-wrap: row;
+}
+
+
+/* default text container size*/
+.text_container {
+  min-width: 300px;
+}
+
+/* keeps links in blogs static */
+.blog_link:visited {
+  color: #012420;
+}
+
+/* adjusts appearance based on media size*/
+@media (min-width: 600px) {
   .project_label {
-    margin: 10px;
-    color: #012420;
-    display: inline;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 0.9;
+    margin: 10px;
   }
-  
-  /* positions image container for each project*/
+  .project_label_container {
+    font-size: 28px;
+    top: 10px;
+  }
   .project_image_container {
-    position: relative;
-    height: 150px;
-    width: auto;
-    bottom: 10px;
-    float: left;
-    left: 10px;
-    padding-right: 10px;
-    display: inline-block;
+    height: 200px;
   }
-  
-  /* sets image size for each project to the height of the parent div */
-  .project_image {
-    height: 100%;
-  }
-  
-  /* project description text style*/
   .project_description {
-    text-align: justify;
-    position: relative;
-    font-size: 16px;
-    margin: 0px;
-    top: -6px;
-    padding-right: 20px;
+    font-size: 18px;
   }
-  
-  /* default blog post style */
-  .blog_container {
-    position: relative;
-    width: 96%;
-    min-width: 250px;
-    min-height: 250px;
-    background: mediumturquoise;
-    color: #012420;
-    border-radius: 25px;
-    display: inline-block;
-    border: 2px slategray ridge;
-    margin: 0 auto;
+  .nav_link {
+    font-size: 30px;
   }
-  
-  /* container for about me */
   .bio_container {
-    min-width: 350px;
-    display: flex;
-    border: 2px slategray ridge;
-    right: 0px;
-    width: 96%;
-    position: relative;
-    min-height: 300px;
-    height: auto;
-    margin: 4px auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    flex-wrap: wrap;
+    min-width: 500px;
+    width: 66%;
   }
-  
-  /* positions and sizes container for about me photo*/
   .bio_photo_container {
-    min-width: 350px;
-    display: flex;
-    width: 96%;
-    min-height: 300px;
-    position: relative;
-    margin: 2px auto;
+    width: 30%;
   }
-  
-  /* About me page primary content setup */
-  #bio_page_pc {
-    background: mediumturquoise;
-    margin: 0 auto;
-    flex-wrap: wrap-reverse;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    min-width: 350px;
-    width: 96%;
-    border-radius: 25px;
-    border: 2px slategray ridge;
-  }
-  
-  /* bio subheading text styling*/
-  .bio_label {
-    color: #012420;
-    display: inline;
-    font-size: 26px;
-    line-height: 0.9;
-    position: absolute;
-    top: -20px;
-  }
-  
-  /* bio subheading container styling */
-  .bio_label_container {
-    height: auto;
-    padding-bottom: 20px;
-    width: 90%;
-    display: inline-block;
-    position: relative;
-  }
-  
-  /* sizes and positions my bio photo*/
-  .bio_image {
-    height: 80%;
-    max-width: 65%;
-    margin: 2%;
-    position: relative;
-    padding-bottom: 10px;
-  }
-  
-  /* positions bio text in about me page */
-  .bio {
-    position: relative;
-    padding-right: 10px;
-  }
-  
-  /* positions link containers */
-  .link_container {
-    position: absolute;
-    bottom: 2px;
-    max-width: 60%;
-    display: flex;
-    flex-wrap: row;
-  }
-  
-  /* styles links in about me section */
-  .bio_links {
-    max-height: 30px;
-    margin: 10px;
-  }
-  
-  /* styles link images */
-  .link_image {
-    max-height: 30px;
-    margin: 10px;
-  }
-  
-  /* styles photo caption containers */
-  .caption_container {
-    position: absolute;
-    right: 0px;
-    border: 2px slategray ridge;
-    height: 94%;
-    width: 36%;
-    margin: 2%;
-  }
-  
-  /* default text container size*/
-  .text_container {
-    min-width: 300px;
-  }
-  
-  /* keeps links in blogs static */
-  .blog_link:visited {
-    color: #012420;
-  }
-  
-  /* adjusts appearance based on media size*/
-  @media (min-width: 600px) {
-    .project_label {
-      font-size: 28px;
-      line-height: 0.9;
-      margin: 10px;
-    }
-    .project_label_container {
-      font-size: 28px;
-      top: 10px;
-    }
-    .project_image_container {
-      height: 200px;
-    }
-    .project_description {
-      font-size: 18px;
-    }
-    .nav_link {
-      font-size: 30px;
-    }
-    .bio_container {
-      min-width: 500px;
-      width: 66%;
-    }
-    .bio_photo_container {
-      width: 30%;
-    }
-  }
-  
+  #Projects_Dropdown{
+  font-size: 30px;
+}
+  #primary-illustration-container{
+  height:600px;
+}
+}

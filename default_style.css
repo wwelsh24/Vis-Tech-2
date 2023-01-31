@@ -23,6 +23,11 @@ video {
   max-width: 100%;
 }
 
+#population_chart{
+  height:900px;
+  width:900px;
+  background-color: aquamarine;
+}
 /* Page title defaults */
 h1 {
   font-weight: 700;

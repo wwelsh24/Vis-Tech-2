@@ -13,7 +13,17 @@ body {
   margin: 0px;
   background: #C9FFFF;
   font-family: "Space Mono", monospace;
-  font-weight:700;
+  font-weight:300;
+}
+
+svg{
+  font-family: "Space Mono", monospace;
+  font-weight:300;
+}
+
+g{
+  font-family: "Space Mono", monospace;
+  font-weight:300;
 }
 
 /* images and videos max out at full width */
@@ -24,10 +34,19 @@ video {
 }
 
 #population_chart{
-  height:900px;
-  width:900px;
-  background-color: aquamarine;
+  height:700px;
+  width:700px;
+  background-color: #FFFFF9;
+
 }
+
+#pop_chart_container{
+  margin: auto;
+  width: 726px;
+  border: 3px solid green;
+  padding: 10px;
+}
+
 /* Page title defaults */
 h1 {
   font-weight: 700;
@@ -141,7 +160,7 @@ li {
   stroke-width: 4px;
 }
 
-circle{
+.circle{
   stroke: #DE5421;
   stroke-width: 4px; 
 }

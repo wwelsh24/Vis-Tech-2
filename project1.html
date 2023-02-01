@@ -11,6 +11,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="default_style.css" />
+     <!-- Imports D3.js -->
+     <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"
+     integrity="sha512-MefNfAGJ/pEy89xLOFs3V6pYPs6AmUhXJrRlydI/9wZuGrqxmrdQ80zKHUcyadAcpH67teDZcBeS6oMJLPtTqw=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   ></script>
+
   </head>
   <body>
     <div class="topnav">
@@ -30,9 +38,12 @@
       </div>
       <a class="nav_link" href="/about.html">About Me</a>
     </div>
-    <div>
-      <svg id = "population_chart"></svg>
-      
+    <div class = "primary-container" id ="pop_chart_container">
+      <svg id = "population_chart">
+        <g id = "points_1900"></g>
+        <g id = "points_2000"></g>
+        <g id = "radial_labels"></g>
+      </svg>
     </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -50,5 +61,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="/Project 1/Project-1.js">
+    </script>
   </body>
 </html>

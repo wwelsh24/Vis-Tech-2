@@ -86,7 +86,7 @@ body {
     position: absolute;
     width:65%;
     left: 10px;
-    bottom:3%;
+    bottom:5%;
     display: block;
 }
 
@@ -100,4 +100,11 @@ body {
     border-radius:10px;
     pointer-events: none;
     opacity: 1;
+}
+
+#sources_container{
+    position: absolute;
+    bottom: 2px;
+    font-size: 8px;
+    right: 10px;
 }

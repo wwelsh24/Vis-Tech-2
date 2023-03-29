@@ -16,7 +16,11 @@
   shape-rendering: crispEdges;
 }
 
-
+.title{
+    margin: auto;
+    left: 20%;
+    position: absolute;
+}
 .tooltip {
     position: absolute;
     visibility: hidden;
@@ -29,12 +33,7 @@
     opacity: 1;
 }
 
-body {
-    font-family: monospace;
-    font-size: 18px;
-    background-color:rgb(217, 255, 242);
-    color: black;
-}
+
 
 #bubbles{
     left: 10px;

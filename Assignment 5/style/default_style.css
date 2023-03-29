@@ -1,0 +1,39 @@
+
+
+.topnav {
+    font-size: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  #Projects_Dropdown{
+    font-size: 20px;
+    margin: -5px;
+    float: left;
+    margin-top:2px;
+    color: #145C5C;
+  }
+  /* styles page navigation links */
+  .nav_link {
+    font-size: 20px;
+    margin: 5px;
+    float: left;
+    color: #145C5C;
+  }
+
+  .title{
+    margin: 10px;
+  }
+
+  body {
+    font-family: monospace;
+    font-size: 18px;
+    background-color:rgb(217, 255, 242);
+    color: black;
+}
+
+li{
+    font-size: 26px;
+    color:rgb(0, 41, 44)
+}
